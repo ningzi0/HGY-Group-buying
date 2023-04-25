@@ -1,9 +1,11 @@
 :host {
   background-color: #f5f5f5;
 }
+
 page view {
   box-sizing: border-box;
 }
+
 .person-info {
   padding-top: 20rpx;
 }
@@ -17,6 +19,7 @@ page view {
   align-self: center;
   justify-content: center;
 }
+
 .person-info__wrapper {
   width: 100%;
   padding: 0 32rpx;
@@ -40,6 +43,24 @@ page view {
 .person-info .order-group__left {
   margin-right: 0;
 }
+
 .person-info .t-cell-class {
   height: 112rpx;
+}
+
+.t-input__control {
+  text-align: right !important;
+}
+
+.form-cell-wrap {
+  margin-top: 20rpx;
+}
+
+.textarea__wrapper {
+  width: 100%;
+}
+
+.form-cell-wrap .t-input,
+.textarea__wrapper .t-input {
+  padding: 0 !important;
 }

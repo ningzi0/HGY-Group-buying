@@ -2,6 +2,8 @@
   "component": true,
   "usingComponents": {
     "t-icon": "tdesign-miniprogram/icon/icon",
-    "t-avatar": "tdesign-miniprogram/avatar/avatar"
+    "t-avatar": "tdesign-miniprogram/avatar/avatar",
+    "t-tag": "tdesign-miniprogram/tag/tag",
+    "t-check-tag": "tdesign-miniprogram/check-tag/check-tag"
   }
 }
