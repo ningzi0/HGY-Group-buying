@@ -58,3 +58,24 @@
   <load-more list-is-empty="{{!goodsList.length}}" status="{{goodsListLoadStatus}}" bind:retry="onReTry" />
   <t-toast id="t-toast" />
 </view>
+
+
+
+
+
+<view class="indexBuycar">
+  <view class="buycarico">
+    <t-badge count="2" offset="{{ [-2, -2] }}" class="wrapper">
+      <image src="https://images.liquorbox.cn/hgy/buycar.png" mode="" />
+    </t-badge>
+  </view>
+  <view class="buyCarPrice">
+    <text>￥</text>0.98
+  </view>
+  <view class="buycarsettlement">
+    <t-button size="large" theme="danger">去结算</t-button>
+  </view>
+
+
+
+</view>

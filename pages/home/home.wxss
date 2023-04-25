@@ -174,3 +174,41 @@ page {
 .t-grid-item__content {
   padding: 15rpx 0 !important;
 }
+
+
+.indexBuycar {
+  position: fixed;
+  bottom: 110rpx;
+  width: 100%;
+  left: 0;
+  background-color: #fff;
+  z-index: 666;
+  padding: 0 20rpx 0;
+  display: flex;
+  align-items: center;
+}
+
+.buycarico image {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+
+.buycarico {
+  width: 50%;
+}
+
+.buyCarPrice {
+  padding: 0 20rpx;
+  color: var(--td-button-danger-bg-color, var(--td-error-color, var(--td-error-color-6, #d54941)));
+  font-size: 42rpx;
+  font-weight: bold;
+}
+
+.buyCarPrice text {
+  font-size: 28rpx;
+}
+
+.t-badge--circle {
+  top: 15px !important;
+}

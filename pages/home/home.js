@@ -21,6 +21,7 @@ Page({
         img1: 'https://images.liquorbox.cn/hgy/4.jpg',
       }
     ],
+
     time: 1000 * 60 * 1000,
     icon: [],
     imgSrcs: [],
