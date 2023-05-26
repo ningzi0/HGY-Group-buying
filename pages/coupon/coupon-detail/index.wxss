@@ -6,9 +6,11 @@ page {
   background-color: #fff;
   padding: 32rpx 32rpx 1rpx;
 }
+
 .desc-wrap {
   margin-top: 24rpx;
 }
+
 .desc-wrap .button-wrap {
   margin: 50rpx 32rpx 0;
 }
@@ -88,4 +90,26 @@ page {
   position: absolute;
   top: 24rpx;
   right: 24rpx;
+}
+
+
+
+
+.num {
+  background: #fff;
+  margin-bottom: 15rpx;
+  margin-top: 15rpx;
+  text-align: center;
+  padding: 40rpx 0;
+}
+
+.num .text {
+  font-size: 28rpx;
+  color: #333;
+}
+
+.num .number {
+  font-size: 70rpx;
+  font-weight: bold;
+  margin-top: 15rpx;
 }

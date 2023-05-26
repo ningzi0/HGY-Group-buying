@@ -1,4 +1,4 @@
-page {
+/* page {
   height: 100%;
 }
 
@@ -75,4 +75,45 @@ page {
 }
 .t-class-indicator {
   color: #b9b9b9 !important;
+} */
+
+page {
+  background: #fefefe;
+}
+
+.couponTop {
+  min-height: 200rpx;
+  background: #fa4126;
+}
+
+.couponT_Content {
+  padding: 40rpx;
+  background: #fff;
+  margin: 0 40rpx;
+  position: relative;
+  top: 40rpx;
+  border-radius: 15rpx;
+  box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.05);
+}
+
+.couponT_Content .span,
+.tips {
+  font-size: 29rpx;
+  color: #999;
+}
+
+.couponT_Content .num {
+  font-size: 66rpx;
+  letter-spacing: -0.15rpx;
+  padding: 15rpx 0;
+  font-weight: bold;
+}
+
+.coupon_del {
+  background: #fff;
+  margin: 60rpx 0 0;
+}
+
+.t-icon-round:before {
+  color: #fa4126 !important;
 }

@@ -21,13 +21,13 @@ export function getCoupon(id = 0, status = 'default', type = (id % 2) + 1) {
     /** 标签 */
     tag: '',
     /** 描述 */
-    desc: parseInt(id) > 0 ? `满${parseInt(id) * 100}元可用` : '我的优惠金总额',
+    desc: parseInt(id) > 0 ? `满${parseInt(id) * 100}元可用` : '已使用',
     /** 订单底价,满n元 */
     base: 10000 * (parseInt(id) || 0),
     /** 标题 */
     title: type === 1 ? `全场可使用 ` : `优惠金全场可使用 `,
     /** 有效时间限制 */
-    timeLimit: '优惠金无时间限制 ',
+    timeLimit: '2023-05-26 10:32 ',
     /** 货币符号 */
     currency: '¥',
   };

@@ -1,10 +1,15 @@
 {
   "navigationBarTitleText": "优惠金",
+  "navigationBarBackgroundColor": "#fa4126",
+  "navigationBarTextStyle": "white",
   "usingComponents": {
     "t-pull-down-refresh": "tdesign-miniprogram/pull-down-refresh/pull-down-refresh",
     "t-tabs": "tdesign-miniprogram/tabs/tabs",
     "t-tab-panel": "tdesign-miniprogram/tab-panel/tab-panel",
     "t-icon": "tdesign-miniprogram/icon/icon",
-    "coupon-card": "../components/coupon-card/index"
+    "coupon-card": "../components/coupon-card/index",
+    "t-tag": "tdesign-miniprogram/tag/tag",
+    "t-cell-group": "tdesign-miniprogram/cell-group/cell-group",
+    "t-cell": "tdesign-miniprogram/cell/cell"
   }
 }
