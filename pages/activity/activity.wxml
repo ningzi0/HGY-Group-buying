@@ -1,0 +1,58 @@
+<!--pages/activity/activity.wxml-->
+<view class="search" bind:tap="navToSearchPage">
+  <t-search t-class-input="t-search__input" t-class-input-container="t-search__input-container" placeholder="特价休闲零食火热抢购中 " leftIcon="" disabled>
+    <t-icon slot="left-icon" prefix="wr" name="search" size="40rpx" color="#bbb" />
+  </t-search>
+</view>
+
+<view class="goodlist">
+  <view class="item">
+    <navigator url="/pages/goods/details/index">
+      <view class="hot_tags">活动</view>
+      <image src="https://images.liquorbox.cn/hgy/1.jpg" mode="" />
+      <view class="name">正大鸡胸肉 500g/袋</view>
+      <view class="Progress">
+        <view class="bar"></view>
+        <text>已抢58%</text>
+      </view>
+      <view class="tags">
+        <t-tag class="margin-16" variant="light" theme="warning">活动转区</t-tag>
+        <t-tag class="margin-16" variant="light" theme="warning">限2份</t-tag>
+      </view>
+      <view class="price">
+        <view class="price_item pricecon">
+          ￥<text>14.74</text>
+        </view>
+        <view class="price_item">
+          <t-button size="small" theme="danger" shape="round">加入购物车</t-button>
+        </view>
+      </view>
+    </navigator>
+  </view>
+  <view class="item">
+    <navigator url="/pages/goods/details/index">
+      <view class="hot_tags">活动</view>
+      <image src="https://images.liquorbox.cn/hgy/10.jpg" mode="" />
+      <view class="name">正大鸡胸肉 500g/袋</view>
+      <view class="Progress">
+        <view class="bar"></view>
+        <text>已抢58%</text>
+      </view>
+      <view class="tags">
+        <t-tag class="margin-16" variant="light" theme="warning">活动转区</t-tag>
+      </view>
+      <view class="price">
+        <view class="price_item pricecon">
+          ￥<text>14.74</text>
+        </view>
+        <view class="price_item">
+          <t-stepper defaultValue="3" theme="filled" />
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>
+
+<view class="footer">
+  <t-footer text="—— 秒杀特卖进行中..."></t-footer>
+</view>
