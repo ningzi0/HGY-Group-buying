@@ -10,11 +10,15 @@
   <block wx:if="{{currAuthStep === AuthStepType.TWO}}">
     <view class="user-center-card__header">
       <t-avatar image="{{userInfo.avatarUrl || defaultAvatarUrl}}" class="user-center-card__header__avatar" />
-      <view class="user-center-card__header__name">{{userInfo.nickName || '微信用户'}}
+      <view class="user-center-card__header__name"><text>{{userInfo.nickName || '微信用户'}}</text>
+        <view class="set_ico">
+          <t-icon name="setting" size="44rpx" />
+        </view>
         <view class="t-tag">
           <t-tag class="margin-16" variant="light" theme="warning">完善个人信息，领取优惠金</t-tag>
         </view>
       </view>
+
       <!-- 需要授权用户信息，通过slot添加弹窗 -->
       <view class="user-center-card__header__transparent" wx:if="{{isNeedGetUserInfo}}">
         <slot name="getUserInfo" />

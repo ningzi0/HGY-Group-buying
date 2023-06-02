@@ -178,7 +178,7 @@ page {
 
 .indexBuycar {
   position: fixed;
-  bottom: 110rpx;
+  bottom: 109rpx;
   width: 100%;
   left: 0;
   background-color: #fff;
