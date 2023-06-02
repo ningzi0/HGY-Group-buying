@@ -1,34 +1,40 @@
 <!-- <t-tabs defaultValue="{{status}}" bind:change="tabChange" tabList="{{list}}" t-class="tabs-external__inner" t-class-item="tabs-external__item" t-class-active="tabs-external__active" t-class-track="tabs-external__track">
 	<t-tab-panel wx:for="{{list}}" wx:for-index="index" wx:for-item="tab" wx:key="key" label="{{tab.text}}" value="{{tab.key}}" />
+</t-tabs> -->
+
+<t-tabs defaultValue="{{0}}" bind:change="onTabsChange" bind:click="onTabsClick" t-class="custom-tabs" t-class-content="custom-panel">
+	<t-tab-panel label="领取优惠金" value="0">
+		<view class="coupon-list-wrap">
+			<t-pull-down-refresh t-class-indicator="t-class-indicator" id="t-pull-down-refresh" bind:refresh="onPullDownRefresh_" background="#fff">
+				<view class="coupon-list-item" wx:for="{{couponList}}" wx:key="key">
+					<coupon-card couponDTO="{{item}}" />
+				</view>
+			</t-pull-down-refresh>
+		</view>
+	</t-tab-panel>
+	<t-tab-panel label="我的优惠金" value="1">
+
+		<view class="coupon">
+			<view class="couponTop">
+				<view class="couponT_Content">
+					<view class="span">我的优惠金 <t-tag class="margin-16" variant="light" theme="success">用于抵扣现金</t-tag>
+					</view>
+					<view class="num">0.00</view>
+					<view class="tips">
+						<t-tag class="margin-16" variant="light" theme="warning">Tips</t-tag> 优惠金使用无时间限制
+					</view>
+				</view>
+			</view>
+
+			<view class="coupon_del">
+				<t-cell-group theme="card">
+					<t-cell title="完善个人信息" description="5月4日 18:46" url="/pages/coupon/coupon-detail/index" note="+11.6" leftIcon="round" hover arrow />
+					<t-cell title="购买相关产品" description="5月4日 18:46" url="/pages/coupon/coupon-detail/index" note="+20.3" leftIcon="round" hover arrow />
+					<t-cell title="完成相应任务" description="5月4日 18:46" url="/pages/coupon/coupon-detail/index" note="-16" leftIcon="round" hover arrow />
+				</t-cell-group>
+			</view>
+
+
+		</view>
+	</t-tab-panel>
 </t-tabs>
-<view class="coupon-list-wrap">
-	<t-pull-down-refresh t-class-indicator="t-class-indicator" id="t-pull-down-refresh" bind:refresh="onPullDownRefresh_" background="#fff">
-		<view class="coupon-list-item" wx:for="{{couponList}}" wx:key="key">
-			<coupon-card couponDTO="{{item}}" />
-		</view>
-	</t-pull-down-refresh>
-
-</view> -->
-
-<view class="coupon">
-	<view class="couponTop">
-		<view class="couponT_Content">
-			<view class="span">我的优惠金 <t-tag class="margin-16" variant="light" theme="success">用于抵扣现金</t-tag>
-			</view>
-			<view class="num">0.00</view>
-			<view class="tips">
-				<t-tag class="margin-16" variant="light" theme="warning">Tips</t-tag> 优惠金使用无时间限制
-			</view>
-		</view>
-	</view>
-
-	<view class="coupon_del">
-		<t-cell-group theme="card">
-			<t-cell title="完善个人信息" description="5月4日 18:46" url="/pages/coupon/coupon-detail/index" note="+11.6" leftIcon="round" hover arrow />
-			<t-cell title="购买相关产品" description="5月4日 18:46" url="/pages/coupon/coupon-detail/index" note="+20.3" leftIcon="round" hover arrow />
-			<t-cell title="完成相应任务" description="5月4日 18:46" url="/pages/coupon/coupon-detail/index" note="-16" leftIcon="round" hover arrow />
-		</t-cell-group>
-	</view>
-
-
-</view>

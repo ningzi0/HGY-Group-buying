@@ -117,3 +117,15 @@ page {
 .t-icon-round:before {
   color: #fa4126 !important;
 }
+
+.t-pull-down-refresh {
+  height: 93vh !important;
+}
+
+.t-tabs__item--active {
+  color: #fa4126 !important;
+}
+
+.t-tabs__track {
+  background: #fa4126 !important;
+}
