@@ -6,8 +6,25 @@ import {
 } from '../../services/good/fetchGoods';
 import Toast from 'tdesign-miniprogram/toast/index';
 
+const imageCdn = 'https://tdesign.gtimg.com/miniprogram/images';
+const swiperList = [
+  `${imageCdn}/swiper1.png`,
+  `${imageCdn}/swiper2.png`,
+  `${imageCdn}/swiper1.png`,
+  `${imageCdn}/swiper2.png`,
+  `${imageCdn}/swiper1.png`,
+];
+
+
+
 Page({
   data: {
+    current: 3,
+    autoplay: true,
+    duration: 500,
+    interval: 5000,
+    swiperList,
+    navigation: { type: '', showControls: true },
     saleList: [{
         img1: 'https://images.liquorbox.cn/hgy/1.jpg',
       },
@@ -49,6 +66,11 @@ Page({
   privateData: {
     tabIndex: 0,
   },
+
+
+
+
+
 
   onShow() {
     this.getTabBar().init();

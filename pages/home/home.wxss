@@ -212,3 +212,22 @@ page {
 .t-badge--circle {
   top: 15px !important;
 }
+
+
+
+
+.swiper {
+  padding: 0 0 20rpx;
+}
+
+.card-theme {
+  --td-swiper-radius: 0;
+  --td-swiper-item-padding: 0 12rpx;
+  --td-swiper-nav-dot-color: #e7e7e7;
+  --td-swiper-nav-dot-active-color: #0052d9;
+
+}
+
+.card-theme .card-theme-nav {
+  bottom: -18px;
+}
