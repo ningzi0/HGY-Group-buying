@@ -1,0 +1,23 @@
+<!--pages/government/show/show.wxml-->
+<view class="container">
+  <view class="top">
+    <view class="h3">地表水环境质量标准</view>
+    <view class="date">2023-06-15 实施</view>
+  </view>
+
+  <view class="content">
+    为贯彻《中华人民共和国环境保护法》和《中华人民共和国水污染防治法》，防治水污染，保护地表水水质，保障人体健康，维护良好的生态系统，制定本标准。本标准按照地表水环境功能分类和保护目标，规定了水环境质量应控制的项目及限值，以及水质评价、水质项目的分析方法和标准的实施与监督。 本标准适用于中华人民共和国领域内江河湖泊、运河、渠道、水库等具有使用功能的地表水水域。具有特定功能的水域，应执行相应的专业用水水质标准。
+  </view>
+
+
+
+  <view class="other">
+    <t-cell-group theme="card">
+      <t-cell title="财政电子票据核验" hover arrow />
+      <t-cell title="区长信箱" hover arrow />
+      <t-cell title="96315举报" hover arrow />
+    </t-cell-group>
+  </view>
+
+
+</view>

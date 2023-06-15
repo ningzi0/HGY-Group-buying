@@ -24,7 +24,10 @@ Page({
     duration: 500,
     interval: 5000,
     swiperList,
-    navigation: { type: '', showControls: true },
+    navigation: {
+      type: '',
+      showControls: true
+    },
     saleList: [{
         img1: 'https://images.liquorbox.cn/hgy/1.jpg',
       },

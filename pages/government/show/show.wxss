@@ -1,0 +1,32 @@
+/* pages/government/show/show.wxss */
+.container {
+  padding: 25rpx 40rpx;
+}
+
+.top {
+  border-bottom: 1px solid #eee;
+}
+
+.top .h3 {
+  font-size: 46rpx;
+  font-weight: bold;
+}
+
+.top .date {
+  padding: 20rpx 0;
+  font-size: 30rpx;
+  color: #999;
+}
+
+.content {
+  line-height: 1.95;
+  padding: 40rpx 0;
+  color: #666;
+  font-size: 30rpx;
+  text-align: justify;
+}
+
+.other {
+  box-shadow: 0 5rpx 20rpx rgba(0, 0, 0, 0.05);
+  border-radius: 15rpx;
+}

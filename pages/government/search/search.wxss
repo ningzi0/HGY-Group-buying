@@ -1,0 +1,33 @@
+/* pages/government/search/search.wxss */
+page {
+  background: #f5f6fa;
+}
+
+.search {
+  background: #fff;
+  padding: 25rpx;
+}
+
+.all_search {
+  padding: 25rpx;
+}
+
+.all_search .h3 {
+  padding: 20rpx 0 0;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+.all_search .btn {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.all_search .btn navigator {
+  background: #fff;
+  font-size: 30rpx;
+  padding: 20rpx;
+  border: 1px solid #eaebef;
+  border-radius: 10rpx;
+  margin: 15rpx 10rpx 0rpx 0;
+}

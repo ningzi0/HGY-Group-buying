@@ -1,0 +1,48 @@
+/* pages/government/list/list.wxss */
+.container {
+  padding: 0 40rpx;
+  padding-bottom: 120rpx;
+}
+
+.title {
+  margin: 70rpx 0 30rpx;
+}
+
+.title .h3 {
+  font-size: 56rpx;
+  font-weight: bold;
+  margin: 15rpx 0;
+}
+
+.title .text {
+  font-size: 29rpx;
+  color: #999;
+}
+
+.government_list .top {
+  border-bottom: 1px solid #eee;
+}
+
+
+.government_list .top .right {
+  text-align: right;
+}
+
+.government_list .top .right image {
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.card {
+  padding: 20rpx 0 0;
+}
+
+.card .h3 {
+  font-size: 44rpx;
+  padding: 25rpx 0;
+  font-weight: bold;
+}
+
+.card .t-cell {
+  padding: 20rpx 0;
+}

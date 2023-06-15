@@ -1,0 +1,56 @@
+<view class="container">
+
+  <view class="title">
+    <view class="h3">贵阳市花果园</view>
+    <view class="text">162个部门机构为您提供1281项服务</view>
+  </view>
+  <t-sticky>
+    <view class="searchlink">
+      <navigator url="/pages/government/search/search">
+        <t-icon name="search" size="44rpx" />
+        <text>搜索</text>
+      </navigator>
+    </view>
+    <view class="tab">
+      <t-tabs defaultValue="{{0}}">
+        <t-tab-panel label="常用服务" value="0" />
+        <t-tab-panel label="专项服务" value="1" />
+        <t-tab-panel label="人生事" value="2" />
+        <t-tab-panel label="法人服务" value="3" />
+        <t-tab-panel label="群体服务" value="4" />
+      </t-tabs>
+    </view>
+  </t-sticky>
+  <view class="card">
+    <view class="tit">最近使用</view>
+    <t-grid class="block">
+      <t-grid-item text="公积金" url="/pages/government/list/list" image="{{img1}}" />
+      <t-grid-item text="社保" url="/pages/government/list/list" image="{{img2}}" />
+      <t-grid-item text="医保" url="/pages/government/list/list" image="{{img3}}" />
+      <t-grid-item text="志愿者服务" url="/pages/government/list/list" image="{{img4}}" />
+    </t-grid>
+  </view>
+
+
+  <view class="service">
+    <view class="card">
+      <view class="tit">常用服务</view>
+      <view class="cardContent">
+        <t-cell title="公积金" url="/pages/government/list/list" arrow description="查询缴存信息及明细、提取预约" image="{{img1}}" hover bordered="true" />
+        <t-cell title="社保" url="/pages/government/list/list" arrow description="查询缴存信息及明细、提取预约" image="{{img2}}" hover bordered="true" />
+        <t-cell title="医保" url="/pages/government/list/list" arrow description="查询缴存信息及明细、提取预约" image="{{img3}}" hover bordered="true" />
+      </view>
+    </view>
+    <view class="card">
+      <view class="tit">专项服务</view>
+      <view class="cardContent">
+        <t-cell title="不动产服务" url="/pages/government/list/list" arrow description="不动产登记业务办理、查询等服务" image="{{img1}}" hover bordered="true" />
+        <t-cell title="消防服务" url="/pages/government/list/list" arrow description="火灾受损申报、隐患举报等服务" image="{{img2}}" hover bordered="true" />
+        <t-cell title="公共服务" url="/pages/government/list/list" arrow description="移车、天气、环境等公共服务" image="{{img3}}" hover bordered="true" />
+        <t-cell title="人才与就业" url="/pages/government/list/list" arrow description="人才证书及教育信息等查询与办理" image="{{img4}}" hover bordered="true" />
+      </view>
+    </view>
+  </view>
+
+
+</view>

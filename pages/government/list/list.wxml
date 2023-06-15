@@ -1,0 +1,39 @@
+<view class="government_list">
+  <view class="container">
+    <view class="top">
+      <view class="t_item">
+        <view class="title">
+          <view class="h3">{{promptTimeSole}}！</view>
+          <view class="text">欢迎使用政务服务业务</view>
+        </view>
+      </view>
+    </view>
+
+
+
+
+    <view class="card">
+      <view class="h3">便民惠民服务</view>
+      <t-cell title="省网络文化内容审查人员考试成绩查询" url="/pages/government/show/show" hover arrow />
+      <t-cell title="一键移车" url="/pages/government/show/show" hover arrow />
+      <t-cell title="本地天气" url="/pages/government/show/show" hover arrow />
+      <t-cell title="生态环境" url="/pages/government/show/show" hover arrow />
+      <t-cell title="财政电子票据核验" url="/pages/government/show/show" hover arrow />
+      <t-cell title="数字图书馆联盟图书查询及文献传递" url="/pages/government/show/show" hover arrow />
+    </view>
+
+    <view class="card">
+      <view class="h3">监管服务</view>
+      <t-cell title="区长信箱" url="/pages/government/show/show" hover arrow />
+      <t-cell title="96315举报" url="/pages/government/show/show" hover arrow />
+      <t-cell title="特殊食品追溯信息查询" url="/pages/government/show/show" hover arrow />
+    </view>
+
+    <view class="card">
+      <view class="h3">其他服务</view>
+      <t-cell title="英烈在线祭扫" url="/pages/government/show/show" hover arrow />
+      <t-cell title="公共地图查询" url="/pages/government/show/show" hover arrow />
+    </view>
+
+  </view>
+</view>

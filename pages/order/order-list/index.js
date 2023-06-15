@@ -102,23 +102,24 @@ Page({
   },
 
   onPullDownRefresh_(e) {
+    console.log(e)
     const {
       callback
     } = e.detail;
-    this.setData({
-      pullDownRefreshing: true
-    });
+    // this.setData({
+    //   pullDownRefreshing: true
+    // });
     this.refreshList(this.data.curTab)
       .then(() => {
-        this.setData({
-          pullDownRefreshing: false
-        });
+        // this.setData({
+        //   pullDownRefreshing: false
+        // });
         callback && callback();
       })
       .catch((err) => {
-        this.setData({
-          pullDownRefreshing: false
-        });
+        // this.setData({
+        //   pullDownRefreshing: false
+        // });
         Promise.reject(err);
       });
   },

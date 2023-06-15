@@ -1,0 +1,79 @@
+/* pages/government/government.wxss */
+.container {
+  padding: 0 40rpx;
+  padding-bottom: 120rpx;
+}
+
+
+.searchlink navigator {
+  align-items: center;
+  background: #f4f5f9;
+  border-radius: 200rpx;
+  padding: 15rpx;
+  text-align: center;
+}
+
+.searchlink navigator .t-icon,
+.searchlink navigator text {
+  display: inline-block;
+  vertical-align: middle;
+  color: #999;
+}
+
+.searchlink navigator text {
+  font-size: 30rpx;
+  margin-top: -2px;
+}
+
+.title {
+  margin: 30rpx 0;
+}
+
+.title .h3 {
+  font-size: 56rpx;
+  font-weight: bold;
+  margin: 15rpx 0;
+}
+
+.title .text {
+  font-size: 29rpx;
+  color: #999;
+}
+
+.t-grid-item__text {
+  font-size: 30rpx !important;
+}
+
+.card {
+  border-radius: 20rpx;
+  overflow: hidden;
+  margin: 25rpx 0;
+  box-shadow: 0 15rpx 20rpx rgba(73, 158, 251, 0.1);
+}
+
+.card .tit {
+  background: #f0f7ff;
+  padding: 20rpx 30rpx;
+  color: #2f3f56;
+  font-weight: bold;
+  font-size: 32rpx;
+}
+
+.service .card .tit {
+  background: none;
+  color: #999;
+  border-bottom: 1px solid #eee;
+}
+
+.service .card .t-cell__left image {
+  width: 80rpx !important;
+  height: 80rpx !important;
+}
+
+.service .card .t-cell__description-text {
+  color: #999;
+}
+
+.service .card .t-cell__title-text {
+  font-weight: bold;
+}
