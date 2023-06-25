@@ -33,7 +33,8 @@
     "pages/government/government",
     "pages/government/search/search",
     "pages/government/list/list",
-    "pages/government/show/show"
+    "pages/government/show/show",
+    "pages/government/consult/consult"
   ],
   "tabBar": {
     "custom": true,
@@ -51,12 +52,12 @@
         "text": "分类"
       },
       {
-        "pagePath": "pages/cart/index",
-        "text": "购物车"
+        "pagePath": "pages/government/consult/consult",
+        "text": "社区服务"
       },
       {
-        "pagePath": "pages/government/government",
-        "text": "政务服务"
+        "pagePath": "pages/order/order-list/index",
+        "text": "订单"
       },
       {
         "pagePath": "pages/usercenter/index",

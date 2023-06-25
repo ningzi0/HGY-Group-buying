@@ -84,12 +84,23 @@ Page({
   },
 
   onShow() {
-    if (!this.data.backRefresh) return;
     this.onRefresh();
     this.setData({
       backRefresh: false
     });
+
+    /**
+     * 生命周期函数--监听页面显示
+     */
+    if (typeof this.getTabBar === 'function' &&
+      this.getTabBar()) {
+      this.getTabBar().setData({
+        //唯一标识（其它设置不同的整数）  
+        selected: 3
+      })
+    }
   },
+
 
   onReachBottom() {
     if (this.data.listLoading === 0) {

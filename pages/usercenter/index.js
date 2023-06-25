@@ -99,9 +99,21 @@ Page({
     this.getVersionInfo();
   },
 
+  // onShow() {
+  //   this.getTabBar().init();
+  //   this.init();
+  // },
+  /**
+   * 生命周期函数--监听页面显示
+   */
   onShow() {
-    this.getTabBar().init();
-    this.init();
+    if (typeof this.getTabBar === 'function' &&
+      this.getTabBar()) {
+      this.getTabBar().setData({
+        //唯一标识（其它设置不同的整数）  
+        selected: 4
+      })
+    }
   },
   onPullDownRefresh() {
     this.init();

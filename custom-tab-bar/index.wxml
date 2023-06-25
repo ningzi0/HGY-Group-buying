@@ -1,18 +1,17 @@
-<t-tab-bar
- value="{{active}}"
- bindchange="onChange"
- split="{{false}}"
->
-	<t-tab-bar-item
-	 wx:for="{{list}}"
-	 wx:for-item="item"
-	 wx:for-index="index"
-	 wx:key="index"
-	>
+<!-- <t-tab-bar value="{{active}}" bindchange="onChange" split="{{false}}">
+	<t-tab-bar-item wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index">
 		<view class="custom-tab-bar-wrapper">
 			<t-icon prefix="wr" name="{{item.icon}}" size="48rpx" />
 			<view class="text">{{ item.text }}</view>
 		</view>
 	</t-tab-bar-item>
-</t-tab-bar>
+</t-tab-bar> -->
 
+
+
+<view class="tab-bar">
+	<view wx:for="{{list}}" wx:key="index" class="tab-bar-item {{item.diyClass}}" data-path="{{item.pagePath}}" data-index="{{index}}" bindtap="switchTab">
+		<image src="{{selected === index ? item.selectedIconPath : item.iconPath}}" class="{{item.diyClass}}" mode="aspectFit" />
+		<view style="color: {{selected === index ? selectedColor : color}}" class="{{item.diyClass}}">{{item.text}}</view>
+	</view>
+</view>

@@ -1,0 +1,65 @@
+/* pages/government/consult/consult.wxss */
+page {
+  background: #f5f6fa;
+}
+
+.container {
+  margin: 20rpx;
+}
+
+.t-cell--middle {
+  border-radius: 15rpx;
+}
+
+.list {
+  padding-bottom: 115rpx;
+}
+
+.list .item {
+  display: flex;
+  align-items: center;
+}
+
+.itemList {
+  background: #fff;
+  border-radius: 15rpx;
+  padding: 30rpx;
+  margin: 20rpx 0;
+}
+
+.listInfo {
+  padding: 0 20rpx;
+}
+
+.listInfo .h3 {
+  font-size: 34rpx;
+  font-weight: bold;
+  padding-bottom: 10rpx;
+}
+
+.itemBtn {
+  width: 100%;
+  display: flex;
+  margin-top: 20rpx;
+}
+
+.itemBtn button {
+  margin: 5rpx;
+  flex: 1;
+}
+
+.listInfoCon {
+  font-size: 26rpx;
+  color: #666;
+}
+
+.list .item .img {
+  width: 150rpx;
+  height: 150rpx;
+
+}
+
+.list .item .img image {
+  width: 100%;
+  height: 100%;
+}

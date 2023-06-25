@@ -1,0 +1,35 @@
+<!--pages/government/consult/consult.wxml-->
+<view class="container">
+  <t-cell-group theme="card">
+    <t-cell title="办事大厅" url="/pages/government/government" leftIcon="service" bordered="{{bordered}}" hover arrow />
+  </t-cell-group>
+
+  <view class="list">
+    <block wx:for="{{list}}">
+      <view class="itemList">
+        <view class="item">
+          <view class="img">
+            <image src="{{item.img}}" mode="" />
+          </view>
+          <view class="listInfo">
+            <view class="h3">{{item.title}}</view>
+            <view class="listInfoCon">
+              <view class="p">{{item.p1}}</view>
+              <view class="p">服务时间：{{item.p2}}</view>
+              <view class="p">服务事项：</view>
+            </view>
+          </view>
+        </view>
+        <view class="itemBtn">
+          <t-button variant="outline" icon="mail" size="small" open-type="contact">在线咨询</t-button>
+          <t-button size="small" icon="call" variant="outline" bind:tap="callTel">立即呼叫</t-button>
+        </view>
+      </view>
+    </block>
+  </view>
+
+
+
+
+
+</view>
