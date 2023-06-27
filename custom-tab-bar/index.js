@@ -50,7 +50,7 @@ Component({
       "selectedIconPath": "https://images.liquorbox.cn/hgy/tab2-active.png",
       "text": "分类"
     }, {
-      "pagePath": "/pages/government/consult/consult",
+      "pagePath": "/pages/government/zhengwu/zhengwu",
       "iconPath": "https://images.liquorbox.cn/hgy/tab3.png",
       "selectedIconPath": "https://images.liquorbox.cn/hgy/tab3.png",
       "text": ""

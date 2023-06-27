@@ -1,0 +1,146 @@
+/* pages/government/zhengwu/zhengwu.wxss */
+page {
+  background: #f3f4f5;
+}
+
+.banner {
+  background: #d54941;
+  height: 200rpx;
+}
+
+.banner swiper {
+  height: 282rpx;
+  position: relative;
+  width: 95%;
+  top: 30%;
+  left: 50%;
+  border-radius: 20rpx;
+  overflow: hidden;
+  transform: translate(-50%, 0);
+}
+
+.banner image {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.content {
+  margin-top: 20rpx;
+}
+
+.NoticeBar {
+  margin: 0 20rpx 20rpx;
+  background: #fff !important;
+  border-radius: 15rpx;
+  display: flex;
+  padding: 20rpx 40rpx 20rpx;
+  align-items: center;
+}
+
+.NoticeBar .title {
+  font-weight: bold;
+  font-size: 34rpx;
+}
+
+.NoticeBar .title .color {
+  color: #d54941;
+}
+
+.t_notice_bar {
+  flex: 2;
+}
+
+.grid {
+  background: #fff;
+  margin: 0 20rpx;
+  border-radius: 15rpx;
+  overflow: hidden;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.03);
+}
+
+.t-notice-bar--info {
+  background: #fff !important;
+  padding: 0 20rpx !important;
+}
+
+.dangjian {
+  margin: 20rpx;
+  padding: 30rpx;
+  background: #fff;
+  border-radius: 15rpx;
+}
+
+.dangjian .title {
+  font-size: 30rpx;
+  padding-bottom: 20rpx;
+}
+
+.dang_content .item .img {
+  height: 241rpx;
+}
+
+.dang_content .item .img image {
+  width: 100%;
+  height: 100%;
+}
+
+.dang_wrap {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.dang_content {
+  display: flex;
+  width: 200%;
+}
+
+.dang_content .item {
+  width: 30%;
+  padding: 0 0 0 30rpx;
+  border: 1px solid #eee;
+  padding: 20rpx;
+  margin-right: 20rpx;
+  border-radius: 15rpx;
+}
+
+.dang_content .item:last-child {
+  margin-right: 0;
+}
+
+.dang_content .item .text .tit {
+  font-size: 34rpx;
+  font-weight: bold;
+  padding: 15rpx 0 0;
+}
+
+.dang_content .item .text .date {
+  font-size: 28rpx;
+  color: #999;
+}
+
+.dang_content .item .text .text_con {
+  font-size: 28rpx;
+  height: 78rpx;
+  overflow: hidden;
+  padding: 15rpx 0 0;
+  color: #999;
+}
+
+.online-contact {
+  padding: 0 20rpx 20rpx;
+}
+
+
+
+.t-grid-item image {
+  -webkit-filter: grayscale(100%);
+}
+
+.t-grid-item:first-child image {
+  -webkit-filter: grayscale(0%);
+}
+
+.t-footer {
+  padding: 0 0 150rpx;
+}

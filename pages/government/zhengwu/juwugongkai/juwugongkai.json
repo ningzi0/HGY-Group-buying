@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "t-tabs": "tdesign-miniprogram/tabs/tabs",
+    "t-tab-panel": "tdesign-miniprogram/tab-panel/tab-panel",
+    "t-notice-bar": "tdesign-miniprogram/notice-bar/notice-bar",
+    "t-cell": "tdesign-miniprogram/cell/cell"
+  },
+  "navigationBarTitleText": "居务公开"
+}

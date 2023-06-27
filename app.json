@@ -34,7 +34,9 @@
     "pages/government/search/search",
     "pages/government/list/list",
     "pages/government/show/show",
-    "pages/government/consult/consult"
+    "pages/government/consult/consult",
+    "pages/government/zhengwu/zhengwu",
+    "pages/government/zhengwu/juwugongkai/juwugongkai"
   ],
   "tabBar": {
     "custom": true,
@@ -52,7 +54,7 @@
         "text": "分类"
       },
       {
-        "pagePath": "pages/government/consult/consult",
+        "pagePath": "pages/government/zhengwu/zhengwu",
         "text": "社区服务"
       },
       {
@@ -69,7 +71,6 @@
     "chooseAddress",
     "chooseLocation"
   ],
-  "lazyCodeLoading": "requiredComponents",
   "usingComponents": {},
   "window": {
     "backgroundTextStyle": "light",

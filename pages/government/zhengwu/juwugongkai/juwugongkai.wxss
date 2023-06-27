@@ -1,0 +1,43 @@
+/* pages/government/zhengwu/juwugongkai/juwugongkai.wxss */
+.t-tabs__item--active {
+  color: #f86641 !important;
+}
+
+.t-tabs__track {
+  background: #f86641 !important;
+}
+
+.t-notice {
+  width: 100%;
+  padding: 15rpx;
+  box-sizing: border-box;
+}
+
+.item {
+  padding: 30rpx;
+}
+
+.item .title {
+  font-size: 42rpx;
+  font-weight: bold;
+  color: #373737;
+}
+
+.item .btnList .img {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background: #f2f5fc;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.item .btnList .img image {
+  width: 100%;
+  height: 100%;
+}
+
+.btnList_item {
+  border: 1px solid #eee;
+  margin: 20rpx 0;
+}

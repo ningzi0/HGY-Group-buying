@@ -11,13 +11,13 @@
 
 
 
-  <view class="other">
+  <!-- <view class="other">
     <t-cell-group theme="card">
       <t-cell title="财政电子票据核验" hover arrow />
       <t-cell title="区长信箱" hover arrow />
       <t-cell title="96315举报" hover arrow />
     </t-cell-group>
-  </view>
+  </view> -->
 
 
 </view>

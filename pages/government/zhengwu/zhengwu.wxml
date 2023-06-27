@@ -1,0 +1,92 @@
+<!--pages/government/zhengwu/zhengwu.wxml-->
+<view class="top">
+  <!-- <view class="banner">
+    <swiper indicator-dots>
+      <swiper-item>
+        <image src="https://images.liquorbox.cn/hgy/banner1.jpg" mode="aspectFit" />
+      </swiper-item>
+    </swiper>
+  </view> -->
+
+  <view class="content">
+    <view class="NoticeBar">
+      <view class="title">
+        <view>社区</view>
+        <view class="color">公告</view>
+      </view>
+      <view class="t_notice_bar">
+        <t-notice-bar visible="{{true}}" bind:tap="navigateto" direction="vertical" interval="{{3000}}" content="{{content}}" prefixIcon="{{false}}" bind:click="click"></t-notice-bar>
+        <t-notice-bar visible="{{true}}" bind:tap="navigateto" direction="vertical" interval="{{3000}}" content="{{content2}}" prefixIcon="{{false}}" bind:click="click"></t-notice-bar>
+      </view>
+    </view>
+
+
+    <view class="grid">
+      <t-grid class="block" column="{{4}}">
+        <t-grid-item text="居务公开" image="{{img1}}" url="/pages/government/zhengwu/juwugongkai/juwugongkai" />
+        <t-grid-item text="居民报事(开发中)" image="{{img2}}" />
+        <t-grid-item text="志愿者报名(开发中)" image="{{img3}}" />
+        <t-grid-item text="垃圾分类(开发中)" image="{{img4}}" />
+      </t-grid>
+      <view class="online-contact">
+        <t-button size="small" block icon="logo-wechat" theme="danger" variant="outline" open-type="contact">在线咨询</t-button>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="dangjian">
+    <view class="title">党建</view>
+    <view class="dang_wrap">
+      <view class="dang_content">
+
+        <block wx:for="{{dang}}">
+          <view class="item">
+            <navigator url="/pages/government/show/show" hover-class="none">
+              <view class="img">
+                <image src="{{item.img}}" mode="aspectFill" />
+              </view>
+              <view class="text">
+                <view class="tit">{{item.tit}}</view>
+                <view class="date">{{item.date}}</view>
+                <view class="text_con">
+                  {{item.textContent}}
+                </view>
+              </view>
+            </navigator>
+          </view>
+        </block>
+
+      </view>
+    </view>
+  </view>
+
+
+  <view class="dangjian">
+    <view class="title">社区活动</view>
+    <view class="dang_wrap">
+      <view class="dang_content">
+
+        <block wx:for="{{shequ}}">
+          <view class="item">
+            <navigator url="/pages/government/show/show" hover-class="none">
+              <view class="img">
+                <image src="{{item.img}}" mode="aspectFill" />
+              </view>
+              <view class="text">
+                <view class="tit">{{item.tit}}</view>
+                <view class="date">活动时间：{{item.date}}</view>
+                <view class="text_con">
+                  {{item.textContent}}
+                </view>
+              </view>
+            </navigator>
+          </view>
+        </block>
+
+      </view>
+    </view>
+  </view>
+  <t-divider />
+  <t-footer text="- 底线在此，浏览其他的吧 -"></t-footer>
+</view>
