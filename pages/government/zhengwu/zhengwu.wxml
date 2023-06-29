@@ -24,9 +24,9 @@
     <view class="grid">
       <t-grid class="block" column="{{4}}">
         <t-grid-item text="居务公开" image="{{img1}}" url="/pages/government/zhengwu/juwugongkai/juwugongkai" />
-        <t-grid-item text="居民报事(开发中)" image="{{img2}}" />
-        <t-grid-item text="志愿者报名(开发中)" image="{{img3}}" />
-        <t-grid-item text="垃圾分类(开发中)" image="{{img4}}" />
+        <t-grid-item text="居民报事" image="{{img2}}" url="/pages/government/zhengwu/juminbaoshi/juminbaoshi" />
+        <t-grid-item text="志愿者报名" image="{{img3}}" url="/pages/government/zhengwu/volunteer/volunteer" />
+        <t-grid-item text="垃圾分类" image="{{img4}}" url="/pages/government/zhengwu/waste/waste" />
       </t-grid>
       <view class="online-contact">
         <t-button size="small" block icon="logo-wechat" theme="danger" variant="outline" open-type="contact">在线咨询</t-button>

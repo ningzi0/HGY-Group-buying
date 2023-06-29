@@ -133,13 +133,6 @@ page {
 
 
 
-.t-grid-item image {
-  -webkit-filter: grayscale(100%);
-}
-
-.t-grid-item:first-child image {
-  -webkit-filter: grayscale(0%);
-}
 
 .t-footer {
   padding: 0 0 150rpx;

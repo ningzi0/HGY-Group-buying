@@ -1,0 +1,68 @@
+<view class="volunteer">
+  <view class="v_item">
+    <t-input label="用户名" placeholder="以字母开头，由数字和字母组成" align="right" />
+    <t-input label="密码" placeholder="必须包含大小写字母和数字" type="password" align="right" clearable />
+    <t-input label="确认密码" placeholder="请再次输入密码" type="password" align="right" clearable />
+    <t-input label="电子邮箱" placeholder="请输入邮箱" align="right" clearable />
+  </view>
+  <view class="v_item">
+    <t-input label="真实姓名" placeholder="请输入真实姓名" align="right" />
+    <t-cell class="mb-16" title="证件类型" arrow hover note="{{cityText}}" bind:click="onCityPicker" />
+    <t-picker visible="{{cityVisible}}" value="{{cityValue}}" data-key="city" title="证件类型" cancelBtn="取消" confirmBtn="确认" bindchange="onPickerChange" bindpick="onColumnChange" bindcancel="onPickerCancel">
+      <t-picker-item options="{{citys}}" />
+    </t-picker>
+    <t-input label="证件号码" placeholder="请输入证件号码" align="right" clearable />
+    <t-cell class="mb-16" title="性别" arrow hover note="{{dateText}}" bind:click="onSeasonPicker" />
+    <t-picker visible="{{dateVisible}}" value="{{dateValue}}" data-key="date" title="选择性别" cancelBtn="取消" confirmBtn="确认" bindchange="onPickerChange" bindpick="onColumnChange" bindcancel="onPickerCancel">
+      <t-picker-item options="{{years}}"></t-picker-item>
+    </t-picker>
+    <t-cell title="出生日期" hover note="{{monthText}}" arrow data-mode="month" bindtap="showPicker" t-class="pannel-item" />
+    <!-- 年月 -->
+    <t-date-time-picker title="选择日期" visible="{{monthVisible}}" mode="date" value="{{month}}" format="YYYY-MM-DD" bindchange="onConfirm" bindpick="onColumnChange" bindcancel="hidePicker" start="{{start}}" end="{{end}}" />
+    <t-input label="手机号码" placeholder="请输入手机号码" align="right" type="number" clearable />
+    <t-cell title="服务区域" note="{{note}}" bind:click="showCascader" arrow />
+    <t-cascader visible="{{visible}}" value="{{value}}" options="{{options}}" title="请选择区域" bind:change="onChange" bind:pick="onPick" />
+  </view>
+  <view class="v_item">
+    <t-cell title="展示志愿经历" bordered="{{false}}" bordered>
+      <t-switch defaultValue="{{true}}" slot="note" />
+    </t-cell>
+    <t-cell title="服务领域" hover note="请选择服务领域或行业" arrow bind:tap="handlePopup" />
+    <t-popup visible="{{visible2}}" bind:visible-change="onVisibleChange" placement="bottom">
+      <view class="block">
+        <view class="header">
+          <view class="btn btn--cancel" aria-role="button">取消</view>
+          <view class="title">服务领域</view>
+          <view class="btn btn--confirm" aria-role="button">确定</view>
+        </view>
+        <view class="p_content">
+          <t-check-tag class="margin-16" size="large" content="{{'疫情防控志愿' }}" />
+          <t-check-tag class="margin-16" size="large" content="{{'扶贫济困志愿' }}" />
+          <t-check-tag class="margin-16" size="large" content="{{'垃圾分类志愿' }}" />
+          <t-check-tag class="margin-16" size="large" content="{{'社区志愿者' }}" />
+          <t-check-tag class="margin-16" size="large" content="{{'青年志愿者' }}" />
+          <t-check-tag class="margin-16" size="large" content="{{'文化志愿者' }}" />
+          <t-check-tag class="margin-16" size="large" content="{{'医疗志愿者' }}" />
+          <t-check-tag class="margin-16" size="large" content="{{'教育志愿者' }}" />
+          <t-check-tag class="margin-16" size="large" content="{{'助残志愿者' }}" />
+          <t-check-tag class="margin-16" size="large" content="{{'巾帼志愿者' }}" />
+          <t-check-tag class="margin-16" size="large" content="{{'消防志愿者' }}" />
+          <t-check-tag class="margin-16" size="large" content="{{'红十字志愿者' }}" />
+        </view>
+      </view>
+    </t-popup>
+  </view>
+</view>
+
+
+
+<view class="submit">
+  <view class="privacy">
+    <t-checkbox icon="rectangle" default-checked />
+    <view class="text">
+      <text>已阅读并同意</text>
+      <navigator url="/pages/government/zhengwu/volunteer/privacy/privacy">用户协议、隐私政策</navigator>
+    </view>
+  </view>
+  <t-button size="large" theme="danger" block>申请成为实名注册志愿者</t-button>
+</view>

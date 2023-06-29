@@ -1,0 +1,113 @@
+<t-sticky>
+  <view class="searchlink">
+    <navigator url="/pages/government/search/search">
+      <t-icon name="search" size="44rpx" />
+      <text>搜索垃圾查看对应分类</text>
+    </navigator>
+  </view>
+</t-sticky>
+<t-tabs defaultValue="{{0}}" bind:change="onTabsChange" bind:click="onTabsClick" t-class="custom-tabs" t-class-content="custom-panel">
+  <t-tab-panel label="湿垃圾" value="0" style="{{tabPanelstyle}}">
+    <view class="introduce bgcolor1">
+      <image src="https://images.liquorbox.cn/hgy/laji1.png" mode="" />
+      <view class="text">
+        <view class="p">
+          <text>湿垃圾</text> 是指易腐的生物质废弃物。包括剩菜剩饭、瓜皮果核、花卉绿植、肉类碎骨、过期食品、餐厨垃圾等。
+        </view>
+        <view class="p">
+          <text>投放要求:</text>
+        </view>
+        <view class="p">
+          <text>·</text> 纯流质的食物垃圾，如牛奶等，应直接倒进下水口
+        </view>
+        <view class="p">
+          <text>·</text> 有包装物的湿垃圾应将包装物取出后分类投放，包装物请投放到对应的可回收物容器或干垃圾容器
+        </view>
+      </view>
+    </view>
+    <view class="listItem">
+      <view class="item" wx:for="{{listItem}}">{{item}}</view>
+    </view>
+  </t-tab-panel>
+  <t-tab-panel label="干垃圾" value="1" style="{{tabPanelstyle}}">
+    <view class="introduce bgcolor2">
+      <image src="https://images.liquorbox.cn/hgy/laji2.png" mode="" />
+      <view class="text">
+        <view class="p">
+          <text>干垃圾 </text> 是指除有害垃圾、可回收物、湿垃圾以外的其他生活废弃物。
+        </view>
+        <view class="p">
+          <text>投放要求:</text>
+        </view>
+        <view class="p">
+          <text>·</text> 尽量沥干水分
+        </view>
+        <view class="p">
+          <text>·</text> 难以辨识类别的生活垃圾投入干垃圾容器内
+        </view>
+      </view>
+    </view>
+    <view class="listItem">
+      <view class="item" wx:for="{{listItem2}}">{{item}}</view>
+    </view>
+  </t-tab-panel>
+  <t-tab-panel label="可回收垃圾" value="2" style="{{tabPanelstyle}}">
+    <view class="introduce bgcolor3">
+      <image src="https://images.liquorbox.cn/hgy/laji3.png" mode="" />
+      <view class="text">
+        <view class="p">
+          <text>可回收物 </text> 是指适宜回收和可循环再利用的废弃物。主要包括废玻璃、废金属、废塑料、废纸张、废织物等。
+        </view>
+        <view class="p">
+          <text>投放要求:</text>
+        </view>
+        <view class="p">
+          <text>·</text> 轻投轻放
+        </view>
+        <view class="p">
+          <text>·</text> 清洁干爆，避免污染
+        </view>
+        <view class="p">
+          <text>·</text> 废纸尽量平整
+        </view>
+        <view class="p">
+          <text>·</text> 立体包装请清空内容物，清洁后压扁投放
+        </view>
+        <view class="p">
+          <text>·</text> 有尖锐边角的，应包惠后投放
+        </view>
+      </view>
+    </view>
+    <view class="listItem">
+      <view class="item" wx:for="{{listItem3}}">{{item}}</view>
+    </view>
+  </t-tab-panel>
+  <t-tab-panel label="有害垃圾" value="3" style="{{tabPanelstyle}}">
+    <view class="introduce bgcolor4">
+      <image src="https://images.liquorbox.cn/hgy/laji4.png" mode="" />
+      <view class="text">
+        <view class="p">
+          <text>有害垃圾 </text> 是指对人体健康或者自然环境造成直接或者潜在危害的零星废弃物，单位集中产生的除外。主要包括废电池、废灯管、废药品、废油漆桶等。
+        </view>
+        <view class="p">
+          <text>投放要求:</text>
+        </view>
+        <view class="p">
+          <text>·</text> 充电电池、纽扣电池，蓄电池投放时请注意轻放
+        </view>
+        <view class="p">
+          <text>·</text> 油漆桶、杀虫剂如有残留请密闭后投放
+        </view>
+        <view class="p">
+          <text>·</text> 荧光灯、节能灯易破损请连带包装或包事后轻放
+        </view>
+        <view class="p">
+          <text>·</text> 废药品及其包装连带包装一并投放
+        </view>
+      </view>
+    </view>
+    <view class="listItem">
+      <view class="item" wx:for="{{listItem4}}">{{item}}</view>
+    </view>
+  </t-tab-panel>
+</t-tabs>

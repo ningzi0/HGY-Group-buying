@@ -1,0 +1,121 @@
+page {
+  background: #f8f7f7;
+}
+
+.t-input--border:after,
+.t-cell::after {
+  left: var(--td-input-border-left-space, 0) !important;
+  right: var(--td-input-border-right-space, 0) !important;
+}
+
+.v_item {
+  margin-bottom: 20rpx;
+}
+
+.block {
+  width: 100vw;
+  background: #fff;
+  border-top-left-radius: 16rpx;
+  border-top-right-radius: 16rpx;
+}
+
+.wrapper {
+  margin: 32rpx;
+  display: block;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 116rpx;
+  border-bottom: 1px solid #eee;
+}
+
+.title {
+  flex: 1;
+  text-align: center;
+  font-weight: 600;
+  font-size: 36rpx;
+}
+
+.btn {
+  font-size: 32rpx;
+  padding: 32rpx;
+}
+
+.btn--cancel {
+  color: rgba(0, 0, 0, .6);
+}
+
+.btn--confirm {
+  color: #d54941;
+}
+
+.t-switch__body--checked {
+  background: #d54941 !important;
+}
+
+.t-tag--dark.t-tag--default {
+  background: #efefef !important;
+  border: 0 !important;
+  width: 31%;
+  margin: 7.5rpx;
+  text-align: center;
+  padding: 20rpx;
+}
+
+.t-tag__text {
+  margin: 0 auto;
+}
+
+.t-tag--large {
+  height: auto !important;
+}
+
+.p_content {
+  padding: 15rpx 0;
+}
+
+.t-tag--dark.t-tag--primary {
+  background: #d54941 !important;
+  border: 0 !important;
+  width: 31%;
+  margin: 7.5rpx;
+  text-align: center;
+  padding: 20rpx;
+}
+
+.volunteer {
+  padding-bottom: 200rpx;
+}
+
+.submit {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.15);
+  background: #fff;
+  z-index: 22;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.privacy .t-checkbox--block {
+  padding: 10rpx !important;
+}
+
+.privacy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+}
+
+.privacy .text {
+  display: flex;
+}
+
+.privacy .text navigator {
+  color: #d54941;
+}

@@ -2,5 +2,5 @@
   "usingComponents": {
     "t-search": "tdesign-miniprogram/search/search"
   },
-  "navigationBarTitleText": "政务搜索"
+  "navigationBarTitleText": "搜索"
 }

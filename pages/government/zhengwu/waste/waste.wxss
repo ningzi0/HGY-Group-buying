@@ -1,0 +1,153 @@
+.t-tabs {
+  padding: 0 20rpx !important;
+}
+
+.t-tabs__wrapper {
+  background: #f4f5f9 !important;
+  position: fixed;
+  width: 95%;
+}
+
+.t-tabs__track {
+  display: none;
+}
+
+
+
+.t-tabs__item {
+  padding: 55rpx 0 !important;
+  color: #999999 !important;
+}
+
+.t-tabs__item--active {
+  background: #956c58;
+  color: #fff !important;
+  transition: 0.4s;
+}
+
+.t-tabs__item::after {
+  position: absolute;
+  width: 95%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 0;
+  height: 8rpx;
+  content: "";
+  display: block;
+  border-radius: 50rpx;
+}
+
+.t-tabs__item:first-child::after {
+  background: #956c58;
+}
+
+.t-tabs__item:nth-child(2)::after,
+.t-tabs__item:nth-child(2).t-tabs__item--active {
+  background: #2d2926;
+}
+
+.t-tabs__item:nth-child(3)::after,
+.t-tabs__item:nth-child(3).t-tabs__item--active {
+  background: #003c71;
+}
+
+.t-tabs__item:nth-child(4)::after,
+.t-tabs__item:nth-child(4).t-tabs__item--active {
+  background: #f9423a;
+}
+
+
+.t-tabs__scroll--top,
+.t-tabs__scroll--bottom,
+.t-tabs__item--top,
+.t-tabs__item--bottom {
+  height: auto !important;
+}
+
+.t-tabs__scroll--top::after {
+  display: none !important;
+}
+
+.searchlink {
+  padding: 20rpx;
+  background: #fff;
+}
+
+.searchlink navigator {
+  align-items: center;
+  background: #f4f5f9;
+  border-radius: 200rpx;
+  padding: 15rpx;
+  text-align: center;
+}
+
+.t-tabs__content {
+  padding-top: 150rpx;
+}
+
+.searchlink navigator .t-icon,
+.searchlink navigator text {
+  display: inline-block;
+  vertical-align: middle;
+  color: #999;
+}
+
+.searchlink navigator text {
+  font-size: 30rpx;
+  margin-top: -2px;
+}
+
+.introduce {
+  width: 100%;
+  margin: 20rpx 0;
+  padding: 30rpx 0;
+  border-radius: 15rpx;
+}
+
+.bgcolor1 {
+  background: #f4f0ee;
+}
+
+.bgcolor2 {
+  background: #eae9e9;
+}
+
+.bgcolor3 {
+  background: #e5ebf1;
+}
+
+.bgcolor4 {
+  background: #feeceb;
+}
+
+
+.introduce .text {
+  padding: 30rpx 70rpx;
+  font-size: 28rpx;
+  line-height: 1.75;
+}
+
+.introduce .text .p {
+  margin-bottom: 15rpx;
+  text-align: justify;
+}
+
+.introduce .text text {
+  font-weight: bold;
+}
+
+.introduce image {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 0 auto;
+  display: block;
+  border-radius: 15rpx;
+}
+
+.listItem .item {
+  padding: 30rpx;
+}
+
+.listItem .item:nth-child(odd) {
+  background: #fafafa;
+}

@@ -1,4 +1,4 @@
-// pages/activity/activity.js
+// pages/government/zhengwu/volunteer/privacy/privacy.js
 Page({
 
   /**
@@ -7,12 +7,6 @@ Page({
   data: {
 
   },
-  navToSearchPage() {
-    wx.navigateTo({
-      url: '/pages/goods/search/index'
-    });
-  },
-
 
   /**
    * 生命周期函数--监听页面加载

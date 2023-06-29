@@ -4,7 +4,6 @@ Component({
     img2: 'https://images.liquorbox.cn/hgy/juminbaoshi.png',
     img3: 'https://images.liquorbox.cn/hgy/zhiyuanzhe.png',
     img4: 'https://images.liquorbox.cn/hgy/lajifenlei.png',
-    img5: 'https://images.liquorbox.cn/hgy/zaixianzixun.png',
     visible: true,
     content: ['【公告】关于天气变化的温馨提示', '【公告】...'],
     content2: ['【公告】关于消防通道堆放杂物通知', '【公告】...'],

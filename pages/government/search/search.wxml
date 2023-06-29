@@ -7,10 +7,10 @@
 <view class="all_search">
   <view class="h3">大家都在搜</view>
   <view class="btn">
-    <navigator url="">居中证-线上办</navigator>
-    <navigator url="">公积金</navigator>
-    <navigator url="">医保</navigator>
-    <navigator url="">不动产服务</navigator>
-    <navigator url="">人才与就业</navigator>
+    <navigator url="">1号电池</navigator>
+    <navigator url="">A4纸</navigator>
+    <navigator url="">塑料盒</navigator>
+    <navigator url="">钢钉</navigator>
+    <navigator url="">PU革</navigator>
   </view>
 </view>

@@ -1,0 +1,86 @@
+.t-tabs__item--active {
+  color: #f86641 !important;
+}
+
+.t-tabs__track {
+  background: #f86641 !important;
+}
+
+.external-class {
+  height: 256rpx;
+}
+
+.content {
+  padding: 100rpx 30rpx 130rpx;
+}
+
+.content .t-textarea {
+  background: #f9f9f9;
+  border-radius: 15rpx;
+}
+
+.content .t-textarea textarea {
+  font-size: 28rpx !important;
+}
+
+.item {
+  margin: 20rpx 0;
+}
+
+.item .title {
+  font-size: 32rpx;
+  margin: 20rpx 0;
+}
+
+.item .t-cell {
+  padding: 32rpx 0 !important;
+}
+
+.item .t-cell::after {
+  left: 0 !important;
+}
+
+.submit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20rpx;
+  box-sizing: border-box;
+  background: #fff;
+  border-top: 1px solid #eee;
+}
+
+.t-sticky {
+  position: fixed !important;
+  width: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+.record {
+  padding: 100rpx 0 130rpx;
+}
+
+.r_item {
+  padding: 20rpx 20rpx 0;
+  border: 1px solid rgb(245, 245, 245);
+  margin: 20rpx;
+  border-radius: 15rpx;
+}
+
+.r_item_con {
+  font-size: 28rpx;
+  padding: 20rpx 10rpx;
+}
+
+.r_item_con text {
+  display: block;
+}
+
+.r_item_con .pic {
+  margin: 15rpx 0;
+}
+
+.r_item_con .pic image {
+  margin-right: 15rpx;
+}

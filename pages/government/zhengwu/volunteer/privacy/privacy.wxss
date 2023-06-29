@@ -1,0 +1,18 @@
+/* pages/government/zhengwu/volunteer/privacy/privacy.wxss */
+.privacy {
+  padding: 30rpx;
+  text-align: justify;
+}
+
+.privacy .p {
+  margin-bottom: 15rpx;
+  font-size: 28rpx;
+  line-height: 1.75;
+  text-indent: 2em;
+}
+
+.privacy .b {
+  font-weight: bold;
+  margin-bottom: 15rpx;
+  font-size: 34rpx;
+}
