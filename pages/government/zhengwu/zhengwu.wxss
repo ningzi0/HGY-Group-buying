@@ -134,6 +134,11 @@ page {
 .dang_content .item .text .tit {
   font-size: 34rpx;
   font-weight: bold;
+  text-overflow: ellipsis;
+  height: 50rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 400rpx;
 }
 
 .dang_content .item .text .date {
