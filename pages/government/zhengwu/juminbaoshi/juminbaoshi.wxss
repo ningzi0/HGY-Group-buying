@@ -127,3 +127,7 @@
 .item .cell .input .t-input__wrap .t-input__content {
   font-size: var(--td-font-size-m, 28rpx) !important;
 }
+
+.item .cell .text text {
+  color: #f00;
+}
