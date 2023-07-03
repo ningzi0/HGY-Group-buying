@@ -1,5 +1,9 @@
 Component({
   data: {
+    autosize: {
+      maxHeight: 120,
+      minHeight: 20,
+    },
     fileList: [],
     imageSrc: 'https://tdesign.gtimg.com/miniprogram/images/image1.jpeg',
   },

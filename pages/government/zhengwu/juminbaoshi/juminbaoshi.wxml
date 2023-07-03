@@ -14,7 +14,8 @@
         <view class="cell">
           <view class="text">上报事件位置地址</view>
           <view class="input">
-            <t-input placeholder="请选择上报事件发生位置" align="right" clearable placeholderStyle="font-size:28rpx" />
+            <t-textarea t-class="external-class" placeholder-style="font-size:28rpx" autosize="{{autosize}}" placeholder="请选择上报事件发生位置" />
+            <!-- <t-input placeholder="请选择上报事件发生位置" align="right" clearable placeholderStyle="font-size:28rpx" /> -->
             <t-icon name="location" size="40rpx" color="#666" />
           </view>
         </view>

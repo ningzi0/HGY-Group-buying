@@ -109,6 +109,17 @@
   padding: 0 !important;
 }
 
+.item .cell .input .t-textarea {
+  width: 100%;
+  background: none;
+  padding: 0;
+}
+
+.item .cell .input .external-class {
+  height: auto;
+}
+
+
 .item .cell .input .t-input--border::after {
   display: none !important;
 }
