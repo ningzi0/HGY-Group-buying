@@ -74,10 +74,31 @@ page {
 .dangjian .title {
   font-size: 30rpx;
   padding-bottom: 20rpx;
+  display: flex;
+  align-items: center;
+}
+
+.dangjian .title .titText,
+.dangjian .title navigator {
+  flex: 1;
+}
+
+.dangjian .title navigator {
+  color: #666;
+  display: flex;
+  align-items: center;
+}
+
+.dangjian .title navigator text {
+  margin-left: auto;
 }
 
 .dang_content .item .img {
-  height: 241rpx;
+  flex: 1;
+}
+
+.dang_content .item .text {
+  flex: 2;
 }
 
 .dang_content .item .img image {
@@ -90,18 +111,20 @@ page {
   overflow-x: scroll;
 }
 
-.dang_content {
-  display: flex;
-  width: 200%;
-}
 
 .dang_content .item {
-  width: 30%;
-  padding: 0 0 0 30rpx;
-  border: 1px solid #eee;
-  padding: 20rpx;
-  margin-right: 20rpx;
+  width: 100%;
+  margin-bottom: 20rpx;
   border-radius: 15rpx;
+}
+
+.dang_content .item navigator {
+  display: flex;
+}
+
+.dang_content .item .text {
+  padding: 20rpx;
+  background: #fafafa;
 }
 
 .dang_content .item:last-child {
@@ -111,20 +134,20 @@ page {
 .dang_content .item .text .tit {
   font-size: 34rpx;
   font-weight: bold;
-  padding: 15rpx 0 0;
 }
 
 .dang_content .item .text .date {
-  font-size: 28rpx;
+  font-size: 24rpx;
   color: #999;
+  padding: 15rpx 0;
 }
 
 .dang_content .item .text .text_con {
-  font-size: 28rpx;
-  height: 78rpx;
+  font-size: 24rpx;
+  height: 75rpx;
   overflow: hidden;
-  padding: 15rpx 0 0;
   color: #999;
+  line-height: 1.7;
 }
 
 .online-contact {

@@ -53,7 +53,7 @@ Component({
       "pagePath": "/pages/government/zhengwu/zhengwu",
       "iconPath": "https://images.liquorbox.cn/hgy/tab3.png",
       "selectedIconPath": "https://images.liquorbox.cn/hgy/tab3.png",
-      "text": ""
+      "text": "政务咨询"
     }, {
       "pagePath": "/pages/order/order-list/index",
       "iconPath": "https://images.liquorbox.cn/hgy/tab4.png",

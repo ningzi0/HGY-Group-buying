@@ -8,11 +8,11 @@ import Toast from 'tdesign-miniprogram/toast/index';
 
 const imageCdn = 'https://tdesign.gtimg.com/miniprogram/images';
 const swiperList = [
-  `${imageCdn}/swiper1.png`,
-  `${imageCdn}/swiper2.png`,
-  `${imageCdn}/swiper1.png`,
-  `${imageCdn}/swiper2.png`,
-  `${imageCdn}/swiper1.png`,
+  `https://images.liquorbox.cn/hgy/banner2.jpg`,
+  `https://images.liquorbox.cn/hgy/banner2.jpg`,
+  `https://images.liquorbox.cn/hgy/banner2.jpg`,
+  `https://images.liquorbox.cn/hgy/banner2.jpg`,
+  `https://images.liquorbox.cn/hgy/banner2.jpg`,
 ];
 
 

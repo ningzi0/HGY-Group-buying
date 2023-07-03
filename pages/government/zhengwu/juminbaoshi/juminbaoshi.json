@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
+    "t-input": "tdesign-miniprogram/input/input",
     "t-tabs": "tdesign-miniprogram/tabs/tabs",
     "t-tab-panel": "tdesign-miniprogram/tab-panel/tab-panel",
     "t-cell": "tdesign-miniprogram/cell/cell",

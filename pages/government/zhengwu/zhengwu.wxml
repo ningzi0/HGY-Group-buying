@@ -36,7 +36,13 @@
 
 
   <view class="dangjian">
-    <view class="title">党建</view>
+    <view class="title">
+      <view class="titText">党建</view>
+      <navigator url="" hover-class="none">
+        <text>更多</text>
+        <t-icon name="chevron-right" size="44rpx" />
+      </navigator>
+    </view>
     <view class="dang_wrap">
       <view class="dang_content">
 
@@ -62,8 +68,16 @@
   </view>
 
 
+
   <view class="dangjian">
-    <view class="title">社区活动</view>
+
+    <view class="title">
+      <view class="titText">社区活动</view>
+      <navigator url="" hover-class="none">
+        <text>更多</text>
+        <t-icon name="chevron-right" size="44rpx" />
+      </navigator>
+    </view>
     <view class="dang_wrap">
       <view class="dang_content">
 

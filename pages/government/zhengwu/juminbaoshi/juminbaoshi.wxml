@@ -3,7 +3,7 @@
     <view class="content">
       <view class="item">
         <view class="title">内容</view>
-        <t-textarea t-class="external-class" placeholder-style="font-size:28rpx" placeholder="请输入报事内容..." disableDefaultPadding="{{true}}" />
+        <t-textarea t-class="external-class" maxlength="200" disableDefaultPadding="{{true}}" indicator placeholder-style="font-size:28rpx" placeholder="请输入报事内容..." disableDefaultPadding="{{true}}" />
       </view>
       <view class="item">
         <view class="title">上传图片(4张)</view>
@@ -11,9 +11,31 @@
         </t-upload>
       </view>
       <view class="item">
-        <t-cell title="上报事件位置地址" note="请选择上报事件发生位置" right-icon="location" />
+        <view class="cell">
+          <view class="text">上报事件位置地址</view>
+          <view class="input">
+            <t-input placeholder="请选择上报事件发生位置" align="right" clearable placeholderStyle="font-size:28rpx" />
+            <t-icon name="location" size="40rpx" color="#666" />
+          </view>
+        </view>
+        <view class="cell">
+          <view class="text">上报人姓名</view>
+          <view class="input">
+            <t-input placeholder="请输入上报人姓名" align="right" clearable placeholderStyle="font-size:28rpx" />
+          </view>
+        </view>
+        <view class="cell">
+          <view class="text">上报人电话</view>
+          <view class="input">
+            <t-input placeholder="请输入上报人电话" align="right" clearable placeholderStyle="font-size:28rpx" />
+          </view>
+        </view>
+
+
+
+        <!-- <t-cell title="上报事件位置地址" note="请选择上报事件发生位置" right-icon="location" />
         <t-cell title="上报人姓名" note="张三" />
-        <t-cell title="上报人电话" note="18788886666" />
+        <t-cell title="上报人电话" note="18788886666" /> -->
       </view>
     </view>
     <view class="submit">

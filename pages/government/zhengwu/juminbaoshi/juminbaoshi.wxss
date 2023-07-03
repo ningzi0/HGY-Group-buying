@@ -84,3 +84,35 @@
 .r_item_con .pic image {
   margin-right: 15rpx;
 }
+
+.item .cell {
+  display: flex;
+  padding: 40rpx 0;
+  border-bottom: 1px solid #eee;
+}
+
+.item .cell .text,
+.item .cell .input {
+  flex: 1;
+}
+
+.item .cell .input {
+  text-align: right;
+  display: flex;
+}
+
+.item .cell .input input {
+  margin-right: 10rpx;
+}
+
+.item .cell .input .t-input {
+  padding: 0 !important;
+}
+
+.item .cell .input .t-input--border::after {
+  display: none !important;
+}
+
+.item .cell .input .t-input__wrap .t-input__content {
+  font-size: var(--td-font-size-m, 28rpx) !important;
+}
