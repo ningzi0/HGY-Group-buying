@@ -131,3 +131,7 @@
 .item .cell .text text {
   color: #f00;
 }
+
+.t-textarea__wrapper-inner {
+  text-align: right !important;
+}

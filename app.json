@@ -38,7 +38,8 @@
     "pages/government/zhengwu/juminbaoshi/juminbaoshi",
     "pages/government/zhengwu/volunteer/volunteer",
     "pages/government/zhengwu/volunteer/privacy/privacy",
-    "pages/government/zhengwu/waste/waste"
+    "pages/government/zhengwu/waste/waste",
+    "pages/test/test"
   ],
   "tabBar": {
     "custom": true,
@@ -48,16 +49,16 @@
     "borderStyle": "black",
     "list": [
       {
-        "pagePath": "pages/home/home",
-        "text": "首页"
+        "pagePath": "pages/government/zhengwu/zhengwu",
+        "text": "社区服务"
       },
       {
         "pagePath": "pages/goods/category/index",
         "text": "分类"
       },
       {
-        "pagePath": "pages/government/zhengwu/zhengwu",
-        "text": "社区服务"
+        "pagePath": "pages/home/home",
+        "text": "首页"
       },
       {
         "pagePath": "pages/order/order-list/index",

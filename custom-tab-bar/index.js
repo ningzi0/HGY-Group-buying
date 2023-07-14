@@ -40,20 +40,20 @@ Component({
     color: "#1E1E1E",
     selectedColor: "#646464", //tabbar选中字体颜色
     list: [{
-      "pagePath": "/pages/home/home",
+      "pagePath": "/pages/government/zhengwu/zhengwu",
       "iconPath": "https://images.liquorbox.cn/hgy/tab1.png",
       "selectedIconPath": "https://images.liquorbox.cn/hgy/tab1-active.png",
-      "text": "首页"
+      "text": "政务服务"
     }, {
       "pagePath": "/pages/goods/category/index",
       "iconPath": "https://images.liquorbox.cn/hgy/tab2.png",
       "selectedIconPath": "https://images.liquorbox.cn/hgy/tab2-active.png",
       "text": "分类"
     }, {
-      "pagePath": "/pages/government/zhengwu/zhengwu",
+      "pagePath": "/pages/home/home",
       "iconPath": "https://images.liquorbox.cn/hgy/tab3.png",
       "selectedIconPath": "https://images.liquorbox.cn/hgy/tab3.png",
-      "text": "政务咨询"
+      "text": "社区团购"
     }, {
       "pagePath": "/pages/order/order-list/index",
       "iconPath": "https://images.liquorbox.cn/hgy/tab4.png",

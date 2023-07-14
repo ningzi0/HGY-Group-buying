@@ -114,6 +114,7 @@
 
 
 
+
   <view class="home-page-header">
     <view class="search" bind:tap="navToSearchPage">
       <t-search t-class-input="t-search__input" t-class-input-container="t-search__input-container" placeholder="特价休闲零食火热抢购中 " leftIcon="" disabled>
@@ -176,4 +177,5 @@
     </view>
 
   </view>
+  <t-footer text="- 底线在此，浏览其他的吧 -"></t-footer>
 </view>

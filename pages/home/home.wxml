@@ -5,32 +5,17 @@
   <t-swiper current="{{current}}" height="250" autoplay="{{autoplay}}" duration="{{duration}}" interval="{{interval}}" navigation="{{ { type: 'dots' } }}" list="{{swiperList}}" bind:click="onTap" bind:change="onChange" bind:image-load="onImageLoad">
   </t-swiper>
 </view>
+
+
+
 <view class="home-page-header">
   <view class="search" bind:tap="navToSearchPage">
     <t-search t-class-input="t-search__input" t-class-input-container="t-search__input-container" placeholder="特价休闲零食火热抢购中 " leftIcon="" disabled>
       <t-icon slot="left-icon" prefix="wr" name="search" size="40rpx" color="#bbb" />
     </t-search>
   </view>
-
-
-
-
-  <!-- <view class="swiper-wrap">
-    <t-swiper
-      wx:if="{{imgSrcs.length > 0}}"
-      current="{{current}}"
-      autoplay="{{autoplay}}"
-      duration="{{duration}}"
-      interval="{{interval}}"
-      navigation="{{navigation}}"
-      imageProps="{{swiperImageProps}}"
-      list="{{imgSrcs}}"
-      bind:click="navToActivityDetail"
-    />
-  </view> -->
 </view>
 <view class="home-page-container">
-
   <view class="Sale">
     <view class="row flex">
       <view class="col">
@@ -83,7 +68,5 @@
   <view class="buycarsettlement">
     <t-button size="large" theme="danger">去结算</t-button>
   </view>
-
-
 
 </view>

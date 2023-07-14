@@ -161,6 +161,12 @@ page {
 
 
 
+
+.t-footer {
+  padding: 0 0 150rpx;
+}
+
+
 .t-notice-bar__content--vertical-item {
   white-space: normal !important;
   text-overflow: initial !important;
@@ -195,7 +201,7 @@ page {
 .home-page-container,
 .home-page-header {
   display: block;
-  padding: 24rpx 24rpx 0;
+  padding: 0 24rpx;
 }
 
 .home-page-header .t-search__input-container {
