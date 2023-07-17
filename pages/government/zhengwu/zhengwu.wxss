@@ -329,8 +329,8 @@ page {
 }
 
 .t-grid-item__image:not(:empty).t-grid-item__image--middle {
-  width: 130rpx !important;
-  height: 130rpx !important;
+  width: 90rpx !important;
+  height: 90rpx !important;
 }
 
 .t-grid-item__image:not(:empty).t-grid-item__image--middle image {
